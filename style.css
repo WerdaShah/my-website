@@ -1,0 +1,138 @@
+.container{
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr ;
+}
+body{
+    background-color: rgba(0,167,207,1);
+    ;
+}
+.introduction{
+    background: rgb(0,167,207);
+    background: linear-gradient(236deg, rgba(0,167,207,1) 40%, rgba(33,91,103,1) 95%);
+    text-align: center;
+    grid-row-start: 1;
+    padding: 0%;
+    border: 0;
+    
+
+}
+h1{
+    font-size: 6rem;
+}
+
+.hobby{
+   background-color: white;
+   grid-row: span 2;
+    
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.hobby_items{
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 3%;
+    padding-right: 3%; 
+    gap: 3rem;
+    border: 10px solid    white;
+    height: auto;
+    border-top: 0cap;
+    padding-top: 0%;
+    margin-top: 0cap;
+    grid-row-end: auto;
+}
+h3{
+    font-size: xx-large;
+    font-style: italic;
+}
+p{
+    text-align:left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+#special{
+    text-align: center;
+}
+.cooking{
+    width: 400px;
+    height: 210px;
+}
+img{
+    border-radius: 30px;
+    height: auto;
+    width: 300px;
+    padding-top: 20px;
+    
+}
+.baking-img{
+    width: 400px;
+    height: 210px;
+}
+.skills{
+    grid-row-start: 4;
+    grid-row-end: 5 ;
+   
+   
+}
+.skills-1 , .skills-2{
+   
+    background-color: rgb(245, 244, 240);
+    height: 250px;
+    width: 500px;
+    border: 3px solid black;
+    padding-left: 10px;
+    
+   
+}
+.skills-section , .skills-section{
+    display: flex;
+    justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+button{
+    font-size: 1rem;
+    padding: 5px;
+    border: 0cap;
+    background-color: black;
+    border-radius: 5px;
+   
+   
+}
+a{
+    color: white;
+   
+}
+.skill-font{
+    font-size: 25px;
+}
+.img-mondrian{
+    height: 100px;
+    width: 100px;
+    float: right;
+    border: 1px solid black;
+    border-radius: 0%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.img-simon{
+    border: 0px;
+
+}
+.img-tindog{
+    border-radius: 0;
+    height: 130px;
+    width: 110px;
+    float: right;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+@media (max-width:1250px){
+   
+}
